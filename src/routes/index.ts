@@ -21,11 +21,15 @@ export const publicRoutes: IRoutes[] = [
     component: Register,
     layout: LayoutLogin,
   },
+  {
+    path: "/",
+    component: Home,
+  },
 ];
 
 export const privateRoutes: IRoutes[] = [
   {
-    path: "/",
+    path: "/home",
     component: Home,
   },
 ];
