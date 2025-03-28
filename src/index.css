@@ -1,0 +1,186 @@
+:root {
+  /* color */
+  --Xanh-mobifone: #004390;
+  --Text: #333;
+  --Text-1: #303030;
+  --Text-2: #4c5665;
+  --Gray: #bebfc3;
+  --Stroke-m: #79859f;
+  --White: #fff;
+  --Dark-Violet-03: #303030;
+  --Label-Secondary: rgba(60, 60, 67, 0.8);
+  /* box-shadow */
+  --Shadow-Xanh-mobifone: 0px 6px 12px 0px rgba(63, 140, 255, 0.26);
+  --Shadow-White: 0px 5px 14px 0px rgba(119, 123, 225, 0.25);
+  --Shadow-subject-light: " 0px 1px 2px 0px rgba(184, 200, 224, 0.22)";
+}
+
+/* css cho text có font-family: Be Vietnam Pro */
+@media (max-width: 539px) {
+  .text-bv-24 {
+    font-family: Be Vietnam Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.4px;
+  }
+
+  .text-bv-22 {
+    font-family: "Be Vietnam Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+  }
+
+  .text-bv-20 {
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 110% */
+  }
+
+  .text-bv-18 {
+    font-family: "Be Vietnam Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 25.2px */
+  }
+
+  /* css cho text có font-family: Be Vietnam Pro */
+  .text-bv-16 {
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.4px;
+  }
+
+  .text-bv-14 {
+    font-family: "Be Vietnam Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .text-bv-12 {
+    font-family: "Be Vietnam Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .text-bv-11 {
+    font-family: "Be Vietnam Pro";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 236.364% */
+  }
+
+  .text-bv-10 {
+    font-family: "Be Vietnam Pro";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 260% */
+  }
+}
+
+/* ================================================================================ */
+
+@media (min-width: 540px) {
+  .text-bv-24 {
+    font-family: Be Vietnam Pro;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+  }
+
+  .text-bv-22 {
+    font-family: "Be Vietnam Pro";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 118.182% */
+  }
+
+  .text-bv-20 {
+    font-family: "Be Vietnam Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 110% */
+  }
+
+  .text-bv-18 {
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+
+  /* css cho text có font-family: Be Vietnam Pro */
+  .text-bv-16 {
+    font-family: "Be Vietnam Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.4px;
+  }
+
+  .text-bv-14 {
+    font-family: "Be Vietnam Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  }
+
+  .text-bv-12 {
+    font-family: "Be Vietnam Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .text-bv-11 {
+    font-family: "Be Vietnam Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 236.364% */
+  }
+
+  .text-bv-10 {
+    font-family: "Be Vietnam Pro";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 260% */
+  }
+}
+
+/* ẩn thanh scrol */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* border */
+.border-normal {
+  border: 1px solid #ccc;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
