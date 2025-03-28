@@ -25,7 +25,7 @@ export const publicRoutes: IRoutes[] = [
 
 export const privateRoutes: IRoutes[] = [
   {
-    path: "/home",
+    path: "/",
     component: Home,
   },
 ];
